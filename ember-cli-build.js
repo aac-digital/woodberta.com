@@ -19,6 +19,11 @@ module.exports = function(defaults) {
   // modules that you would like to import into your application
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
+  
+  app.import('node_modules/blaze/scss/dist/generics.global.min.css');
+  app.import('node_modules/blaze/scss/dist/objects.grid.min.css');
+  app.import('node_modules/blaze/scss/dist/objects.grid.responsive.min.css');
+  app.import('node_modules/blaze/scss/dist/objects.containers.min.css');;
 
   return app.toTree();
 };
