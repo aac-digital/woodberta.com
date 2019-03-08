@@ -1,0 +1,36 @@
+.c-main-cover {
+  background-repeat: repeat;
+  height: 642px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  .c-main-cover__content {
+    max-width: 345px;
+    width: 100%;
+
+    h3 {
+      margin: 0;
+      color: $color-white;
+    }
+
+    .btn {
+      margin-top: 50px;
+    }
+
+    p {
+      font-size: 1.28rem;
+      font-weight: 800;
+      color: $color-white;
+      text-transform: uppercase;
+    }
+  }
+
+.c-main-cover--box1 {
+  background:url('/assets/images/main-box1.png');
+}
+
+.c-main-cover--box2 {
+  background:url('/assets/images/main-box2.png');
+}
