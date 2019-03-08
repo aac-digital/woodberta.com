@@ -1,0 +1,29 @@
+.c-header-menu {
+  height: 80px;
+  line-height: 80px;
+
+  ul {
+    list-style: none;
+    margin: 0;
+  }
+
+  li {
+    float: left;
+    margin-right: 20px;
+
+    a {
+      text-decoration: none;
+      color: $color-malibu;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+    }
+
+    a:hover {
+      color: $color-coral;
+    }
+  }
+}
+
+  .c-header-menu__logo {
+    margin: 25px 0 0 22px;
+  }
